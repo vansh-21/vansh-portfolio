@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vansh Choubey | Portfolio</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- Fixed icon nav -->
+<nav class="fixed-icons">
+  <a href="#about" title="About Me"><i class="fas fa-user"></i></a>
+  <a href="#projects" title="Projects"><i class="fas fa-laptop-code"></i></a>
+  <a href="#Tech Stack" title="Tech Stack"><i class="fas fa-tools"></i></a>
+  <a href="#certifications" title="Certifications"><i class="fas fa-certificate"></i></a>
+  <a href="#resume" title="Resume"><i class="fas fa-file-alt"></i></a>
+  <a href="#contact" title="Contact"><i class="fas fa-envelope"></i></a>
+</nav>
+
+  <header style="display: flex; justify-content: space-between; align-items: center; padding: 3rem 2rem; background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); color: white;">
+  <div style="flex: 1; text-align: left;">
+    <p style="font-family: 'Brush Script MT', cursive; font-size: 1.5rem; margin: 0;">Hello, I am</p>
+    <h1 style="font-size: 3.2rem; margin: 0.25rem 0; font-weight: bold;">Vansh Choubey</h1>
+    <h2 style="color: #3b82f6; font-weight: 600; font-size: 1.5rem; margin: 0.25rem 0 0.5rem 0; text-align: left;">Data Analyst</h2>
+    <p style="font-size: 1rem; max-width: 500px; margin: 0.5rem 0; color: #d1d5db;">Transforming data into actionable insights with passion and precision. Let’s turn complexity into clarity together.</p>
+    <div style="margin-top: 1rem; display: flex; gap: 1rem;">
+      <a href="https://linkedin.com/in/vansh-choubey-a23083223" target="_blank" style="color: #3b82f6;"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a href="https://github.com/vansh-21" target="_blank" style="color: #3b82f6;"><i class="fab fa-github fa-2x"></i></a>
+    </div>
+  </div>
+  <div style="flex-shrink: 0;">
+    <img src="C:\Users\Victus\OneDrive\Desktop\portfolio\Assets\Myphoto.jpg" alt="Vansh Choubey" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 4px solid #3b82f6;" />
+  </div>
+</header>
+
+  <section id="about">
+  <div style="background-color: #1f2937; border-radius: 1rem; padding: 2rem; max-width: 800px; margin: auto; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+    <h2>About Me</h2>
+    <p style="text-align: center; max-width: 700px; margin: auto">
+      I'm a recent Computer Science graduate and aspiring Data Analyst passionate about solving real-world problems using data. My background includes hands-on experience with SQL, Python, Excel, and Power BI, along with academic projects focused on machine learning and analytics. 
+      <br/><br/>
+      I was a finalist at the Smart India Hackathon, where I helped build a missing person identification system using deep learning. I'm always exploring ways to turn complex data into simple, actionable insights, and I'm currently deepening my skills in predictive modeling and business intelligence.
+    </p>
+  </div>
+</section>
+
+   <section id="projects">
+    <h3>Projects</h3>
+    <div class="projects container">
+  <div class="card">
+    <h4>Tableau Dashboards</h4>
+    <p>Interactive Tableau dashboards covering insights...</p>
+    <button onclick="toggleDetails(this)" style="background: none; color: inherit; border: 1px solid #ccc; padding: 0.5rem 1rem; border-radius: 0.5rem; cursor: pointer;">See More</button>
+    <div class="details" style="display:none;">
+      <p>Built dashboards using Tableau Public to visualize trends and patterns in real-world datasets including sales, demographics, and KPIs. Incorporated filters, calculated fields, and charts for interactivity and storytelling.</p>
+      <a href="https://public.tableau.com/app/profile/vansh.choubey/vizzes" target="_blank">View Project</a>
+    </div>
+  </div>
+  <div class="card">
+    <h4>Credit Risk Analysis</h4>
+    <p>LightGBM model used to predict risk levels...</p>
+    <button onclick="toggleDetails(this)" style="background: none; color: inherit; border: 1px solid #ccc; padding: 0.5rem 1rem; border-radius: 0.5rem; cursor: pointer;">See More</button>
+    <div class="details" style="display:none;">
+      <p>Implemented a credit risk classification system using LightGBM with SMOTE oversampling. Achieved 88% accuracy and identified high-risk customers through ROC-AUC metrics and SHAP interpretation.</p>
+      <a href="https://github.com/vansh-21/Comparison-of-various-ML-Classifiers-in-credit-risk-analysis" target="_blank">View Project</a>
+    </div>
+  </div>
+  <div class="card">
+    <h4>Customer Segmentation Analysis</h4>
+    <p>Used Excel to classify customers using RFM...</p>
+    <button onclick="toggleDetails(this)" style="background: none; color: inherit; border: 1px solid #ccc; padding: 0.5rem 1rem; border-radius: 0.5rem; cursor: pointer;">See More</button>
+    <div class="details" style="display:none;">
+      <p>Segmented customers based on Recency, Frequency, and Monetary value using advanced formulas (SUMIFS, FILTER). Identified Top-tier, Loyal, and Potential segments and automated personalized messaging logic.</p>
+      <a href="https://docs.google.com/spreadsheets/d/1oLb6Hbk6WjQ6xHmE2GZnlwxdOCiu6HOnFEAjd1mcW9w/edit?usp=sharing" target="_blank">View Project</a>
+    </div>
+  </div>
+  <div class="card">
+    <h4>Ad Campaign Analysis</h4>
+    <p>Analyzed ad performance using Power BI...</p>
+    <button onclick="toggleDetails(this)" style="background: none; color: inherit; border: 1px solid #ccc; padding: 0.5rem 1rem; border-radius: 0.5rem; cursor: pointer;">See More</button>
+    <div class="details" style="display:none;">
+      <p>Developed Power BI dashboards to evaluate campaign ROI across platforms. Used DAX for revenue KPIs, A/B test comparisons, and channel-wise performance breakdowns.</p>
+      <a href="https://drive.google.com/drive/folders/17RSAoLnD36mowkD7xdPTutN4UipkcD9-?usp=sharing" target="_blank">View Project</a>
+    </div>
+  </div>
+  <div class="card">
+    <h4>Business Budget & Expense Analysis</h4>
+    <p>Building Financial Clarity Through Data...</p>
+    <button onclick="toggleDetails(this)" style="background: none; color: inherit; border: 1px solid #ccc; padding: 0.5rem 1rem; border-radius: 0.5rem; cursor: pointer;">See More</button>
+    <div class="details" style="display:none;">
+      <p>Built a dynamic Excel tool to track departmental budgets vs. actuals across 5 departments. Identified ₹1.5 Cr+ overspend in Marketing, 58% variance in Food expenses, and 82% of Office/Admin spend on Accounting. Enabled real-time insights, vendor tracking, and cost control through interactive charts and variance analysis.</p>
+      <a href="https://1drv.ms/x/c/9152d678de1732d0/EVxC40QeCcFDj0P26tdb6-ABxADhL9vckE3PYSk2q2tNTA?e=tW3Y6N" target="_blank">View Project</a>
+    </div>
+  </div>
+</div>
+<script>
+  function toggleDetails(button) {
+    const details = button.nextElementSibling;
+    if (details.style.display === 'none') {
+      details.style.display = 'block';
+      button.textContent = 'See Less';
+    } else {
+      details.style.display = 'none';
+      button.textContent = 'See More';
+    }
+  }
+</script>
+  </section>
+  
+  <section id="Tech Stack">
+    <h3>Tech Stack</h3>
+    <div class="skills container">
+      <div><strong>Data Analysis:</strong> Python, SQL, Excel, Sheets</div>
+      <div><strong>Visualization:</strong> Power BI, Tableau</div>
+      <div><strong>Machine Learning:</strong> Scikit-learn, TensorFlow, YOLO</div>
+      <div><strong>Tools:</strong> Git, Jupyter, VS Code</div>
+    </div>
+  </section>
+
+  <section id="certifications">
+  <h3 style="text-align: center;">Awards & Certificates</h3>
+  <div class="projects container" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+    <div class="card">
+      <img src="C:\Users\Victus\OneDrive\Desktop\portfolio\Assets\Screenshot 2025-06-22 003711.png" alt="Data Analytics Job Simulation" style="width: 100%; border-radius: 10px;" />
+      <p style="text-align: center; margin-top: 0.5rem;">Deloitte Data Analytics Job Simulation</p>
+    </div>
+    <div class="card">
+      <img src="C:\Users\Victus\OneDrive\Desktop\portfolio\Assets\Screenshot 2025-06-22 003750.png" alt="Data Science Job Simulation" style="width: 100%; border-radius: 10px;" />
+      <p style="text-align: center; margin-top: 0.5rem;">British Airways Data Science Job Simulation</p>
+    </div>
+    <div class="card">
+      <img src="C:\Users\Victus\OneDrive\Desktop\portfolio\Assets\certificate.jpg" alt="SIH Finalist" style="width: 100%; border-radius: 10px;" />
+      <p style="text-align: center; margin-top: 0.5rem;">SIH Finalist</p>
+    </div>
+  </div>
+</section>
+
+  <section id="resume" style="text-align:center">
+    <h3>Resume</h3>
+    <a href="C:\Users\Victus\OneDrive\Desktop\portfolio\Assets\VanshChoubey_Resume.docx" class="resume-btn" download>Download Resume (PDF)</a>
+  </section>
+
+  <section id="contact" style="text-align:center">
+  <h3>Get in Touch</h3>
+  <div class="contact-box" style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
+    <a href="mailto:vanshchoubey214@gmail.com" target="_blank" style="text-decoration: none;">
+      <div style="background: #1e293b; padding: 1rem; border-radius: 12px; width: 200px; color: white; text-align: center;">
+        <i class="fas fa-envelope" style="font-size: 2rem;"></i><br/>
+        <span style="font-size: 0.875rem;">vanshchoubey214@gmail.com</span>
+      </div>
+    </a>
+    <a href="https://github.com/vansh-21" target="_blank" style="text-decoration: none;">
+      <div style="background: #1e293b; padding: 1rem; border-radius: 12px; width: 200px; color: white; text-align: center;">
+        <i class="fab fa-github" style="font-size: 2rem;"></i><br/>
+        <span style="font-size: 0.875rem;">github.com/vansh-21</span>
+      </div>
+    </a>
+    <a href="https://linkedin.com/in/vansh-choubey-a23083223" target="_blank" style="text-decoration: none;">
+      <div style="background: #1e293b; padding: 1rem; border-radius: 12px; width: 200px; color: white; text-align: center;">
+        <i class="fab fa-linkedin" style="font-size: 2rem;"></i><br/>
+        <span style="font-size: 0.875rem;">linkedin.com/in/vansh-choubey-a23083223</span>
+      </div>
+    </a>
+
+  </div>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Vansh Choubey. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    function toggleTheme() {
+      const root = document.documentElement;
+      const isDark = getComputedStyle(root).getPropertyValue('--bg-dark');
+      if (document.body.style.backgroundColor === isDark || !document.body.style.backgroundColor) {
+        root.style.setProperty('--bg-dark', '#ffffff');
+        root.style.setProperty('--text-dark', '#000000');
+        document.body.style.backgroundColor = '#ffffff';
+        document.body.style.color = '#000000';
+      } else {
+        root.style.setProperty('--bg-dark', '#111827');
+        root.style.setProperty('--text-dark', '#ffffff');
+        document.body.style.backgroundColor = '#111827';
+        document.body.style.color = '#ffffff';
+      }
+    }
+  </script>
+</body>
+</html>
