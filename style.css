@@ -90,3 +90,45 @@ h2, h3 { text-align: center; }
     object-fit: cover;
     border: 2px solid #fff;
 }
+.fixed-icons a {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background: #1f2937;
+  border-radius: 50%;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background 0.3s;
+  overflow: visible;
+}
+
+.fixed-icons a:hover {
+  background: #2563eb;
+}
+
+.fixed-icons .icon-label {
+  position: absolute;
+  left: 50px;
+  opacity: 0;
+  transform: translateX(-10px);
+  background: #1f2937;
+  padding: 6px 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+  font-size: 0.8rem;
+  color: #ffffff;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.fixed-icons a:hover .icon-label {
+  opacity: 1;
+  transform: translateX(0);
+}
+html {
+  scroll-behavior: smooth;
+}
